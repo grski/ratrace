@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <title>Git data visualization</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body style="width: 100%">
+<section id="container">
+    <h1>Git data visualization</h1>
+    <section id="project">
+        <h2>Deeptrue</h2>
+        <button id="backend">yourproject</button>
+        <div class="row">
+            <h3 class="sectionHeader" id="projectName"></h3>
+            <table class="tableCommiters" id="commiters"></table>
+            <table class="tableStats" id="stats"></table>
+        </div>
+        <div class="row">
+            <div id="hourly" class="width: 70%;"></div>
+            <div id="total" class="width: 30%;"></div>
+        </div>
+        <div class="row">
+            <div id="daily"></div>
+        </div>
+        <div class="row">
+            <div id="dailyTeam"></div>
+        </div>
+        <div class="row">
+            <div id="weekdaysPie"></div>
+            <div id="monthlyTeam"></div>
+        </div>
+        <div class="row">
+            <div id="monthly"></div>
+        </div>
+        <div class="row">
+            <div id="hourlyTeam"></div>
+            <div id="weekdaysTeam"></div>
+        </div>
+    </section>
+</section>
+</body>
+<script src="main.js" type="module">
+</script>
+</html>
